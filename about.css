@@ -13,10 +13,11 @@
 }
 
 
-.main-div h1 {
+.main-div h1{
     font-family: "Caveat", cursive;
     font-size: clamp(3.5rem, 7vw, 6rem);
     font-weight: 1;
+    color: rgb(218, 218, 218);
     margin: 0;
 }
 
@@ -42,6 +43,7 @@ section h2{
     font-family: "Caveat", cursive;
     font-size: clamp(2rem, 3vw, 3rem);
     font-weight: 1;
+    color: rgb(218, 218, 218);
     margin: 0;
 }
 
@@ -58,5 +60,41 @@ section ul{
 
 
 
+@media(max-width: 768px){
 
+    .main-div {
+        gap: 30px;
+        padding: 30px 15px;
+        min-height: 50vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-div h1{
+        font-size: clamp(2.5rem, 10vw, 4rem);
+    }
+
+    .main-div p{
+        font-size: 16px;
+    }
+
+    section{
+        gap: 15px;
+        padding: 25px 15px;
+        min-height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    section h2{
+        font-size: clamp(1.8rem, 7vw, 2.5rem);
+    }
+
+    section ul{
+        gap: 12px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
 

@@ -1,6 +1,4 @@
 
-
-
 div{
     gap: 10px;
     padding: 40px 20px;
@@ -12,10 +10,11 @@ div{
     min-height: 1vh;
 }
 
-div h1 {
+div h1{
     font-family: "Caveat", cursive;
     font-size: clamp(2rem, 4vw, 4rem);
     font-weight: 1;
+    color: rgb(218, 218, 218);
     margin: 0;
 }
 
@@ -44,7 +43,7 @@ section h2{
 
 
 
-section ul {
+section ul{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
@@ -55,11 +54,11 @@ section ul {
     width: 100%;
 }
 
-section li {
+section li{
     display: flex;
 }
 
-.project-card {
+.project-card{
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -75,16 +74,16 @@ section li {
     transition: border-color 0.3s ease;
 }
 
-.project-card:hover {
+.project-card:hover{
     border-color: #a5b4fc;
 }
 
-.project-card h2 {
+.project-card h2{
     color: white;
     margin: 0;
 }
 
-.project-card p {
+.project-card p{
     color: #a1a1aa;
     font-size: 15px;
     margin: 0;
@@ -96,13 +95,13 @@ section li {
     margin: 0;
 }
 
-.project-card:focus-visible {
+.project-card:focus-visible{
     outline: 2px solid #a5b4fc;
     outline-offset: 3px;
 }
 
-@media (max-width: 600px) {
-    section ul {
+@media(max-width: 600px){
+    section ul{
         grid-template-columns: 1fr;
     }
 }
