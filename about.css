@@ -1,0 +1,62 @@
+
+
+
+.main-div{
+    gap: 100px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    flex-direction: column;
+    text-align: center;
+    min-height: 50vh;
+}
+
+
+.main-div h1 {
+    font-family: "Caveat", cursive;
+    font-size: clamp(3.5rem, 7vw, 6rem);
+    font-weight: 1;
+    margin: 0;
+}
+
+.main-div p{
+    margin: 0;
+    color: #a1a1aa;
+    font-size: 18px;
+}
+
+section{
+    gap: 20px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    flex-direction: column;
+    text-align: center;
+    min-height: 30vh;
+}
+
+section h2{
+
+    font-family: "Caveat", cursive;
+    font-size: clamp(2rem, 3vw, 3rem);
+    font-weight: 1;
+    margin: 0;
+}
+
+section ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0; 
+    color: #a5b4fc;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+

@@ -1,0 +1,72 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;  
+    min-height: 100vh;  
+    background: radial-gradient(ellipse at 50% 45%, rgba(75, 80, 150, 0.25) 0%,rgba(29, 35, 65, 0.12) 40%,transparent 75%), black;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+
+    padding: 20px 30px;
+    border-bottom: 2px solid #333;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+header nav a{
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #a5b4fc;
+}
+
+.logo{
+    font-family: "Caveat", cursive;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #a5b4fc;
+}
+
+
+
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

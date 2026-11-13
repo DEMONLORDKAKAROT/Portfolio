@@ -1,0 +1,68 @@
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    min-height: 70vh;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+main h1 {
+    font-family: "Caveat", cursive;
+    font-size: clamp(3.5rem, 7vw, 6rem);
+    font-weight: 700;
+    margin: 0;
+}
+
+main p {
+    color: #a1a1aa;
+    font-size: 18px;
+    margin: 0;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+main section a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 4px;
+    padding: 15px 25px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+main section a:hover {
+    color: #a5b4fc;
+    border-color: #a5b4fc;
+}
+
+@media (max-width: 600px) {
+    main section {
+        flex-direction: column;
+    }
+}
+
+main section .email {
+    color: #a5b4fc;
+    font-size: 18px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    padding: 15px 25px;
+    margin: 0;
+}
+
