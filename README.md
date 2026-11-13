@@ -17,4 +17,4 @@ A simple website I built to practice HTML and CSS and share some of the projects
 [Check it out here](https://demonlordkakarot.github.io/Portfolio/)
 
 ## About
-This is one of my first web development projects. I'm still learning, so I'll keep updating and improving it as I go.
+I'm still learning, so I'll keep updating and improving it as I go.
